@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "dmPolicy": "pairing",
+    "groupPolicy": "allowlist",
+    "groups": {
+      "-1003898750053": {
+        "groupPolicy": "allowlist",
+        "requireMention": false,
+        "allowFrom": [
+          "1673077564"
+        ]
+      }
+    },
+    "streaming": "partial"
+  }
+}

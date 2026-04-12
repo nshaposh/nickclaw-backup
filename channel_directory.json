@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-04-12T02:59:09.442029",
+  "platforms": {
+    "telegram": [
+      {
+        "id": "1673077564",
+        "name": "Nick Shaposhnikov",
+        "type": "dm",
+        "thread_id": null
+      },
+      {
+        "id": "-1003898750053:2",
+        "name": "Nick & nickclaw / topic 2",
+        "type": "group",
+        "thread_id": "2"
+      },
+      {
+        "id": "-1003898750053",
+        "name": "Nick & nickclaw",
+        "type": "group",
+        "thread_id": null
+      },
+      {
+        "id": "-1003898750053:77",
+        "name": "Nick & nickclaw / topic 77",
+        "type": "group",
+        "thread_id": "77"
+      },
+      {
+        "id": "-1003898750053:86",
+        "name": "Nick & nickclaw / topic 86",
+        "type": "group",
+        "thread_id": "86"
+      }
+    ],
+    "whatsapp": [],
+    "signal": [],
+    "email": [],
+    "sms": []
+  }
+}

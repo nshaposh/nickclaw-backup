@@ -1,0 +1,32 @@
+{
+  "allow": [
+    "openclaw-web-search",
+    "telegram"
+  ],
+  "entries": {
+    "ollama": {
+      "enabled": true
+    },
+    "openclaw-web-search": {
+      "enabled": true
+    },
+    "lobster": {
+      "enabled": true
+    }
+  },
+  "installs": {
+    "openclaw-web-search": {
+      "source": "npm",
+      "spec": "@ollama/openclaw-web-search",
+      "installPath": "/root/.openclaw/extensions/openclaw-web-search",
+      "version": "0.2.2",
+      "resolvedName": "@ollama/openclaw-web-search",
+      "resolvedVersion": "0.2.2",
+      "resolvedSpec": "@ollama/openclaw-web-search@0.2.2",
+      "integrity": "sha512-h0D3z36BH0ZDN2a9toAwO/1F2dLLpE0zkC3DgRHhA4kfO9d9eomXhmdmPKWtS612DasOX2Gla8hWWxScnfK1Ug==",
+      "shasum": "c10cc9adbad7dfc181758873ebda304d54b12bf1",
+      "resolvedAt": "2026-03-26T02:30:10.918Z",
+      "installedAt": "2026-03-26T02:30:11.514Z"
+    }
+  }
+}

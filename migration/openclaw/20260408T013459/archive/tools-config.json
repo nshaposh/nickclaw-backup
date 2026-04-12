@@ -1,0 +1,16 @@
+{
+  "profile": "coding",
+  "alsoAllow": [
+    "ollama_web_search",
+    "ollama_web_fetch",
+    "lobster"
+  ],
+  "web": {
+    "search": {
+      "enabled": false
+    },
+    "fetch": {
+      "enabled": false
+    }
+  }
+}
