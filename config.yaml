@@ -1,5 +1,5 @@
 model:
-  default: minimax-m2.7
+  default: gemma4:31b
   provider: custom
   base_url: https://ollama.com/v1
   api_key: a7ff0db597c74b59a5e1efcf1a24d598.QFyU4tbCd6Y-YZN7cSzvcJIJ
@@ -284,5 +284,5 @@ custom_providers:
 - name: Ollama.com
   base_url: https://ollama.com/v1
   api_key: a7ff0db597c74b59a5e1efcf1a24d598.QFyU4tbCd6Y-YZN7cSzvcJIJ
-  model: minimax-m2.7
+  model: gemma4:31b
 TELEGRAM_HOME_CHANNEL: '1673077564'

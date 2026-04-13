@@ -1,9 +1,9 @@
 {
   "jobs": [
     {
-      "id": "f7a895111b06",
+      "id": "ee2ac2368afe",
       "name": "Agent State Backup",
-      "prompt": "Sync and push the agent state to GitHub. Steps:\n\n1. rsync from ~/.hermes/ to /tmp/nickclaw-backup/ with excludes for:\n   - *.db, *.db-shm, *.db-wal, state.db*\n   - __pycache__, venv, .venv, node_modules\n   - cache/, audio_cache/, image_cache/, logs/, *.lock\n   - bin/, .env, hermes-agent/, optional-skills/\n   - gateway.pid, gateway_state.json\n\n2. cd /tmp/nickclaw-backup and run:\n   git add -A\n   git diff --cached --stat\n   git commit -m \"Auto-backup $(date '+%Y-%m-%d %H:%M')\" 2>&1 | tail -5\n\n3. If there were changes to commit, git push origin main\n\n4. Report what was backed up (number of files changed)",
+      "prompt": "Sync and push the agent state to GitHub. Steps:\n\n1. rsync from ~/.hermes/ to /tmp/nshaposh-backup/ with excludes for:\n   - *.db, *.db-shm, *.db-wal, state.db*\n   - __pycache__, venv, .venv, node_modules\n   - cache/, audio_cache/, image_cache/, logs/, *.lock\n   - bin/, .env, hermes-agent/, optional-skills/\n   - gateway.pid, gateway_state.json\n\n2. cd /tmp/nshaposh-backup and run:\n   git add -A\n   git diff --cached --stat\n   git commit -m \"Auto-backup $(date '+%Y-%m-%d %H:%M')\" 2>&1 | tail -5\n\n3. If there were changes to commit, git push origin main\n\n4. Report what was backed up (number of files changed)",
       "skills": [],
       "skill": null,
       "model": null,
@@ -17,15 +17,15 @@
       },
       "schedule_display": "0 3 * * *",
       "repeat": {
-        "times": null,
+        "times": 2147483647,
         "completed": 0
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
-      "created_at": "2026-04-11T22:55:38.543485+00:00",
-      "next_run_at": "2026-04-13T03:00:00+00:00",
+      "created_at": "2026-04-12T14:42:57.093234+00:00",
+      "next_run_at": "2026-04-14T03:00:00+00:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -38,5 +38,5 @@
       }
     }
   ],
-  "updated_at": "2026-04-12T03:00:09.448945+00:00"
+  "updated_at": "2026-04-13T03:00:26.640593+00:00"
 }
