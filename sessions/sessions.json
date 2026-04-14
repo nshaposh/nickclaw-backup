@@ -71,7 +71,7 @@
     "last_prompt_tokens": 43255,
     "estimated_cost_usd": 0.0,
     "cost_status": "unknown",
-    "memory_flushed": false,
+    "memory_flushed": true,
     "origin": {
       "platform": "telegram",
       "chat_id": "-1003898750053",
@@ -127,7 +127,7 @@
     "last_prompt_tokens": 25386,
     "estimated_cost_usd": 0.0,
     "cost_status": "unknown",
-    "memory_flushed": false,
+    "memory_flushed": true,
     "origin": {
       "platform": "telegram",
       "chat_id": "-1003898750053",
