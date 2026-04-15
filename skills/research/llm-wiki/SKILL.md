@@ -235,7 +235,7 @@ a `_meta/topic-map.md` that groups pages by theme for faster navigation.
 
 ## Core Operations
 
-### 1. Ingest
+## Ingest
 
 When the user provides a source (URL, file, paste), integrate it into the wiki:
 
@@ -244,6 +244,7 @@ When the user provides a source (URL, file, paste), integrate it into the wiki:
    - PDF → use `web_extract` (handles PDFs), save to `raw/papers/`
    - Pasted text → save to appropriate `raw/` subdirectory
    - Name the file descriptively: `raw/articles/karpathy-llm-wiki-2026.md`
+   - **Tip:** When ingesting from APIs like arXiv, avoid piping large XML/JSON directly into complex shell-one-liners to prevent `ParseError` or syntax issues with shell quoting; instead, save the raw output to a file first and process it using a dedicated Python script or tool.
 
 ② **Discuss takeaways** with the user — what's interesting, what matters for
    the domain. (Skip this in automated/cron contexts — proceed directly.)

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T02:56:16.179540",
+  "updated_at": "2026-04-15T02:58:33.395659",
   "platforms": {
     "telegram": [
       {
@@ -31,6 +31,12 @@
         "name": "Nick & nickclaw / topic 86",
         "type": "group",
         "thread_id": "86"
+      },
+      {
+        "id": "-1003898750053:238",
+        "name": "Nick & nickclaw / topic 238",
+        "type": "group",
+        "thread_id": "238"
       }
     ],
     "whatsapp": [],
