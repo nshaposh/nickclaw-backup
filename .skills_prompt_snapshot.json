@@ -249,6 +249,10 @@
       1775607343372331137,
       1264
     ],
+    "note-taking/wiki-domain-discovery/SKILL.md": [
+      1776353224544948142,
+      1981
+    ],
     "openclaw-imports/llamaindex/SKILL.md": [
       1774137326485477627,
       4736
@@ -1261,6 +1265,19 @@
       "category": "note-taking",
       "frontmatter_name": "obsidian",
       "description": "Read, search, and create notes in the Obsidian vault.",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "wiki-domain-discovery",
+      "category": "note-taking",
+      "frontmatter_name": "wiki-domain-discovery",
+      "description": "Process for discovering and mapping the domain and struct...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],

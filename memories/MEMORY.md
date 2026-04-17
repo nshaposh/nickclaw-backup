@@ -29,3 +29,5 @@
 § FalkorDB v4.18.00, Browser v1.9.3
 § Python client: pip install falkordb
 § Loaded IMDB demo: graph "imdb" — 1317 actors, 283 movies, 1839 act relationships, <1MB
+§
+Wiki location: /home/user/wiki/l (non-standard path)
